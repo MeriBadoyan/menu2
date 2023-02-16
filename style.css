@@ -16,6 +16,10 @@ li {
     border-right: 1px #fff solid;
 }
 
+li:hover {
+    background-color: #dc7e9f;
+}
+
 span {
     padding: 0 5px;
 }
@@ -33,6 +37,10 @@ span {
     position: absolute;
     top: 42px;
     left: 0;
+}
+
+.subMenu>li {
+    border-bottom: 1px solid #fff;
 }
 
 .menu>li:hover .subMenu {
